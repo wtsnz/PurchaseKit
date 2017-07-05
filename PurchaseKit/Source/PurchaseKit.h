@@ -6,14 +6,12 @@
 //  Copyright © 2017年 Meniny. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for PurchaseKit.
 FOUNDATION_EXPORT double PurchaseKitVersionNumber;
 
 //! Project version string for PurchaseKit.
 FOUNDATION_EXPORT const unsigned char PurchaseKitVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <PurchaseKit/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <PurchaseKit/PurchaseKit.h>
 
 
