@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PKInAppReceiptVerificator Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/PKInAppReceiptVerificator" class="dashAnchor"></a>
+    <a title="PKInAppReceiptVerificator Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (9% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PKInAppReceiptVerificator Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/PKCompleteTransactionsController.html">PKCompleteTransactionsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKInAppProductQueryRequest.html">PKInAppProductQueryRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKInAppReceiptRefreshRequest.html">PKInAppReceiptRefreshRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKInAppReceiptRefreshRequest/PKResultType.html">– PKResultType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKInAppReceiptVerificator.html">PKInAppReceiptVerificator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKPaymentQueueController.html">PKPaymentQueueController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKPaymentsController.html">PKPaymentsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKProductsInfoController.html">PKProductsInfoController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKRestorePurchasesController.html">PKRestorePurchasesController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseKit.html">PurchaseKit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/PKPurchaseResult.html">PKPurchaseResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptError.html">PKReceiptError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptExitCode.html">PKReceiptExitCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptInfoField.html">PKReceiptInfoField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptInfoField/InApp.html">– InApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptStatus.html">PKReceiptStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKRefreshReceiptResult.html">PKRefreshReceiptResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKSubscriptionType.html">PKSubscriptionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKTransactionResult.html">PKTransactionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKVerifyPurchaseResult.html">PKVerifyPurchaseResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKVerifyReceiptResult.html">PKVerifyReceiptResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKVerifySubscriptionResult.html">PKVerifySubscriptionResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SKPaymentTransaction.html">SKPaymentTransaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SKPaymentTransactionState.html">SKPaymentTransactionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SKProduct.html">SKProduct</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/PKPaymentQueue.html">PKPaymentQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PKPaymentTransaction.html">PKPaymentTransaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PKReceiptValidator.html">PKReceiptValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PKTransactionController.html">PKTransactionController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/PKAppleReceiptValidator.html">PKAppleReceiptValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKAppleReceiptValidator/PKVerifyReceiptURLType.html">– PKVerifyReceiptURLType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKCompleteTransactions.html">PKCompleteTransactions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKPayment.html">PKPayment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKPurchase.html">PKPurchase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKPurchaseDetails.html">PKPurchaseDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKReceiptItem.html">PKReceiptItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKRestorePurchases.html">PKRestorePurchases</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKRestoreResults.html">PKRestoreResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKRetrieveResults.html">PKRetrieveResults</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PKInAppReceiptVerificator</h1>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC4tvOS25PKInAppReceiptVerificator18appStoreReceiptURLGSqV10Foundation3URL_"></a>
+                    <a name="//apple_ref/swift/Property/appStoreReceiptURL" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC4tvOS25PKInAppReceiptVerificator18appStoreReceiptURLGSqV10Foundation3URL_">appStoreReceiptURL</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC4tvOS25PKInAppReceiptVerificatorcFT18appStoreReceiptURLGSqV10Foundation3URL__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(appStoreReceiptURL:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC4tvOS25PKInAppReceiptVerificatorcFT18appStoreReceiptURLGSqV10Foundation3URL__S0_">init(appStoreReceiptURL:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC4tvOS25PKInAppReceiptVerificator19appStoreReceiptDataGSqV10Foundation4Data_"></a>
+                    <a name="//apple_ref/swift/Property/appStoreReceiptData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC4tvOS25PKInAppReceiptVerificator19appStoreReceiptDataGSqV10Foundation4Data_">appStoreReceiptData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC4tvOS25PKInAppReceiptVerificator13verifyReceiptFT5usingPS_18PKReceiptValidator_8passwordGSqSS_12forceRefreshSb7refreshFTGSqGVs10DictionarySSP___FOCS_28PKInAppReceiptRefreshRequest12PKResultTypeT__S3_10completionFOS_21PKVerifyReceiptResultT__T_"></a>
+                    <a name="//apple_ref/swift/Method/verifyReceipt(using:password:forceRefresh:refresh:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC4tvOS25PKInAppReceiptVerificator13verifyReceiptFT5usingPS_18PKReceiptValidator_8passwordGSqSS_12forceRefreshSb7refreshFTGSqGVs10DictionarySSP___FOCS_28PKInAppReceiptRefreshRequest12PKResultTypeT__S3_10completionFOS_21PKVerifyReceiptResultT__T_">verifyReceipt(using:password:forceRefresh:refresh:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify application receipt. This method does two things:</p>
+
+<ul>
+<li>If the receipt is missing, refresh it</li>
+<li>If the receipt is available or is refreshed, validate it</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">verifyReceipt</span><span class="p">(</span><span class="n">using</span> <span class="nv">validator</span><span class="p">:</span> <span class="kt"><a href="../Protocols/PKReceiptValidator.html">PKReceiptValidator</a></span><span class="p">,</span>
+                              <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+                              <span class="nv">forceRefresh</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span>
+                              <span class="nv">refresh</span><span class="p">:</span> <span class="kt"><a href="../Classes/PKInAppReceiptRefreshRequest.html">PKInAppReceiptRefreshRequest</a></span><span class="o">.</span><span class="kt">PKReceiptRefresh</span> <span class="o">=</span> <span class="kt"><a href="../Classes/PKInAppReceiptRefreshRequest.html">PKInAppReceiptRefreshRequest</a></span><span class="o">.</span><span class="n">refresh</span><span class="p">,</span>
+                              <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/PKVerifyReceiptResult.html">PKVerifyReceiptResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>validator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Validator to check the encrypted receipt and return the receipt in readable format</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Your app’s shared secret (a hexadecimal string). Only used for receipts that contain auto-renewable subscriptions.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>forceRefresh</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If true, refreshes the receipt even if one already exists.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>refresh</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>closure to perform receipt refresh (this is made explicit for testability)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>handler for result</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-07-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

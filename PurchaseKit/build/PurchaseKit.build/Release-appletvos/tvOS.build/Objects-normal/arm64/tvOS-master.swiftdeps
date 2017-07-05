@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "9e1438105783116507c4fe00c6d41c59"
+build_time: [552586295, 744696000]
+inputs:
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKAppleReceiptValidator.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRegisterTransactionsController.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRestorePurchasesController.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppProductQueryRequest.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentsController.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PurchaseKit.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentQueueController.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift": [9223372036854775807, 0]
+  "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKProductsInfoController.swift": [9223372036854775807, 0]

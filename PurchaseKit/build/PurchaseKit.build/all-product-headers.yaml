@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/build/Release-appletvos/tvOS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "tvOS-Swift.h",
+          'external-contents': "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/build/Release-appletvos/tvOS.framework/Headers/tvOS-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/build/Release-appletvos/tvOS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/build/PurchaseKit.build/Release-appletvos/tvOS.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

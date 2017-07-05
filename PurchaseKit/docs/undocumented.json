@@ -1,0 +1,1230 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKAppleReceiptValidator.swift",
+      "line": 6,
+      "symbol": "PKAppleReceiptValidator",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKAppleReceiptValidator.swift",
+      "line": 8,
+      "symbol": "PKAppleReceiptValidator.PKVerifyReceiptURLType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKAppleReceiptValidator.swift",
+      "line": 9,
+      "symbol": "PKAppleReceiptValidator.PKVerifyReceiptURLType.production",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKAppleReceiptValidator.swift",
+      "line": 10,
+      "symbol": "PKAppleReceiptValidator.PKVerifyReceiptURLType.sandbox",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKAppleReceiptValidator.swift",
+      "line": 13,
+      "symbol": "PKAppleReceiptValidator.init(service:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKAppleReceiptValidator.swift",
+      "line": 19,
+      "symbol": "PKAppleReceiptValidator.validate(receipt:password:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppProductQueryRequest.swift",
+      "line": 4,
+      "symbol": "PKInAppProductQueryRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppProductQueryRequest.swift",
+      "line": 21,
+      "symbol": "PKInAppProductQueryRequest.startQuery(_:callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppProductQueryRequest.swift",
+      "line": 27,
+      "symbol": "PKInAppProductQueryRequest.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppProductQueryRequest.swift",
+      "line": 30,
+      "symbol": "PKInAppProductQueryRequest.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppProductQueryRequest.swift",
+      "line": 35,
+      "symbol": "PKInAppProductQueryRequest.productsRequest(_:didReceive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppProductQueryRequest.swift",
+      "line": 43,
+      "symbol": "PKInAppProductQueryRequest.requestDidFinish(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppProductQueryRequest.swift",
+      "line": 45,
+      "symbol": "PKInAppProductQueryRequest.request(_:didFailWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 137,
+      "symbol": "PKInAppReceiptRefreshRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 139,
+      "symbol": "PKInAppReceiptRefreshRequest.PKResultType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 140,
+      "symbol": "PKInAppReceiptRefreshRequest.PKResultType.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 141,
+      "symbol": "PKInAppReceiptRefreshRequest.PKResultType.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 147,
+      "symbol": "PKInAppReceiptRefreshRequest.refresh(_:callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 153,
+      "symbol": "PKInAppReceiptRefreshRequest.refreshReceiptRequest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 154,
+      "symbol": "PKInAppReceiptRefreshRequest.callback",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 160,
+      "symbol": "PKInAppReceiptRefreshRequest.init(receiptProperties:callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 167,
+      "symbol": "PKInAppReceiptRefreshRequest.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 171,
+      "symbol": "PKInAppReceiptRefreshRequest.requestDidFinish(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 180,
+      "symbol": "PKInAppReceiptRefreshRequest.request(_:didFailWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 191,
+      "symbol": "PKInAppReceiptVerificator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 193,
+      "symbol": "PKInAppReceiptVerificator.appStoreReceiptURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 194,
+      "symbol": "PKInAppReceiptVerificator.init(appStoreReceiptURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKInAppReceipt.swift",
+      "line": 198,
+      "symbol": "PKInAppReceiptVerificator.appStoreReceiptData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentQueueController.swift",
+      "line": 5,
+      "symbol": "PKPaymentQueueController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentQueueController.swift",
+      "line": 72,
+      "symbol": "PKPaymentQueueController.paymentQueue(_:updatedTransactions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentQueueController.swift",
+      "line": 108,
+      "symbol": "PKPaymentQueueController.paymentQueue(_:removedTransactions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentQueueController.swift",
+      "line": 112,
+      "symbol": "PKPaymentQueueController.paymentQueue(_:restoreCompletedTransactionsFailedWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentQueueController.swift",
+      "line": 117,
+      "symbol": "PKPaymentQueueController.paymentQueueRestoreCompletedTransactionsFinished(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentQueueController.swift",
+      "line": 122,
+      "symbol": "PKPaymentQueueController.paymentQueue(_:updatedDownloads:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentsController.swift",
+      "line": 5,
+      "symbol": "PKPaymentsController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentsController.swift",
+      "line": 16,
+      "symbol": "PKPaymentsController.hasPayment(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentsController.swift",
+      "line": 20,
+      "symbol": "PKPaymentsController.append(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentsController.swift",
+      "line": 24,
+      "symbol": "PKPaymentsController.processTransaction(_:on:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKPaymentsController.swift",
+      "line": 63,
+      "symbol": "PKPaymentsController.transactionError(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKProductsInfoController.swift",
+      "line": 5,
+      "symbol": "PKProductsInfoController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKProductsInfoController.swift",
+      "line": 10,
+      "symbol": "PKProductsInfoController.retrieveProductsInfo(_:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRegisterTransactionsController.swift",
+      "line": 5,
+      "symbol": "PKCompleteTransactionsController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRegisterTransactionsController.swift",
+      "line": 7,
+      "symbol": "PKCompleteTransactionsController.completeTransactions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRestorePurchasesController.swift",
+      "line": 5,
+      "symbol": "PKRestorePurchasesController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRestorePurchasesController.swift",
+      "line": 7,
+      "symbol": "PKRestorePurchasesController.restorePurchases",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRestorePurchasesController.swift",
+      "line": 11,
+      "symbol": "PKRestorePurchasesController.processTransaction(_:atomically:on:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRestorePurchasesController.swift",
+      "line": 46,
+      "symbol": "PKRestorePurchasesController.restoreCompletedTransactionsFailed(withError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PKRestorePurchasesController.swift",
+      "line": 61,
+      "symbol": "PKRestorePurchasesController.restoreCompletedTransactionsFinished()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PurchaseKit.swift",
+      "line": null,
+      "symbol": "PurchaseKit",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PurchaseKit.swift",
+      "line": null,
+      "symbol": "PurchaseKit",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PurchaseKit.swift",
+      "line": 4,
+      "symbol": "PurchaseKit",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/PurchaseKit.swift",
+      "line": 114,
+      "symbol": "PurchaseKit.canMakePayments",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": null,
+      "symbol": "PKReceiptItem",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 11,
+      "symbol": "PKCompleteTransactions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 12,
+      "symbol": "PKCompleteTransactions.atomically",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 13,
+      "symbol": "PKCompleteTransactions.callback",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 15,
+      "symbol": "PKCompleteTransactions.init(atomically:callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 21,
+      "symbol": "PKRestorePurchases",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 22,
+      "symbol": "PKRestorePurchases.atomically",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 23,
+      "symbol": "PKRestorePurchases.applicationUsername",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 24,
+      "symbol": "PKRestorePurchases.callback",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 26,
+      "symbol": "PKRestorePurchases.init(atomically:applicationUsername:callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 34,
+      "symbol": "PKRetrieveResults",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 35,
+      "symbol": "PKRetrieveResults.retrievedProducts",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 36,
+      "symbol": "PKRetrieveResults.invalidProductIDs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 37,
+      "symbol": "PKRetrieveResults.error",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 41,
+      "symbol": "PKRestoreResults",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 42,
+      "symbol": "PKRestoreResults.restoredPurchases",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 43,
+      "symbol": "PKRestoreResults.restoreFailedPurchases",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 46,
+      "symbol": "PKReceiptItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 48,
+      "symbol": "PKReceiptItem.productId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 50,
+      "symbol": "PKReceiptItem.quantity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 52,
+      "symbol": "PKReceiptItem.transactionId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 54,
+      "symbol": "PKReceiptItem.originalTransactionId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 56,
+      "symbol": "PKReceiptItem.purchaseDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 58,
+      "symbol": "PKReceiptItem.originalPurchaseDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 60,
+      "symbol": "PKReceiptItem.webOrderLineItemId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 62,
+      "symbol": "PKReceiptItem.subscriptionExpirationDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 64,
+      "symbol": "PKReceiptItem.cancellationDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 66,
+      "symbol": "PKReceiptItem.isTrialPeriod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 69,
+      "symbol": "PKPayment",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 70,
+      "symbol": "PKPayment.product",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 71,
+      "symbol": "PKPayment.quantity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 72,
+      "symbol": "PKPayment.atomically",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 73,
+      "symbol": "PKPayment.applicationUsername",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 74,
+      "symbol": "PKPayment.callback",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 85,
+      "symbol": "PKPurchase",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 86,
+      "symbol": "PKPurchase.productId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 87,
+      "symbol": "PKPurchase.quantity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 88,
+      "symbol": "PKPurchase.transaction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 89,
+      "symbol": "PKPurchase.originalTransaction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 90,
+      "symbol": "PKPurchase.needsFinishTransaction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 93,
+      "symbol": "PKPurchaseDetails",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 94,
+      "symbol": "PKPurchaseDetails.productId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 95,
+      "symbol": "PKPurchaseDetails.quantity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 96,
+      "symbol": "PKPurchaseDetails.product",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 97,
+      "symbol": "PKPurchaseDetails.transaction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 98,
+      "symbol": "PKPurchaseDetails.needsFinishTransaction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 103,
+      "symbol": "PKTransactionResult",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 104,
+      "symbol": "PKTransactionResult.purchased",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 105,
+      "symbol": "PKTransactionResult.restored",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 106,
+      "symbol": "PKTransactionResult.failed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 110,
+      "symbol": "PKPurchaseResult",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 111,
+      "symbol": "PKPurchaseResult.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 112,
+      "symbol": "PKPurchaseResult.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 116,
+      "symbol": "PKRefreshReceiptResult",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 117,
+      "symbol": "PKRefreshReceiptResult.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 118,
+      "symbol": "PKRefreshReceiptResult.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 122,
+      "symbol": "PKVerifyReceiptResult",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 123,
+      "symbol": "PKVerifyReceiptResult.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 124,
+      "symbol": "PKVerifyReceiptResult.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 128,
+      "symbol": "PKVerifyPurchaseResult",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 129,
+      "symbol": "PKVerifyPurchaseResult.purchased",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 130,
+      "symbol": "PKVerifyPurchaseResult.notPurchased",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 134,
+      "symbol": "PKVerifySubscriptionResult",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 135,
+      "symbol": "PKVerifySubscriptionResult.purchased",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 136,
+      "symbol": "PKVerifySubscriptionResult.expired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 137,
+      "symbol": "PKVerifySubscriptionResult.notPurchased",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 140,
+      "symbol": "PKSubscriptionType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 141,
+      "symbol": "PKSubscriptionType.autoRenewable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 142,
+      "symbol": "PKSubscriptionType.nonRenewing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 146,
+      "symbol": "PKReceiptError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 148,
+      "symbol": "PKReceiptError.noReceiptData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 150,
+      "symbol": "PKReceiptError.noRemoteData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 152,
+      "symbol": "PKReceiptError.requestBodyEncodeError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 154,
+      "symbol": "PKReceiptError.networkError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 156,
+      "symbol": "PKReceiptError.jsonDecodeError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 158,
+      "symbol": "PKReceiptError.receiptInvalid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 163,
+      "symbol": "PKReceiptStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 165,
+      "symbol": "PKReceiptStatus.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 167,
+      "symbol": "PKReceiptStatus.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 169,
+      "symbol": "PKReceiptStatus.valid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 171,
+      "symbol": "PKReceiptStatus.jsonNotReadable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 173,
+      "symbol": "PKReceiptStatus.malformedOrMissingData",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 175,
+      "symbol": "PKReceiptStatus.receiptCouldNotBeAuthenticated",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 177,
+      "symbol": "PKReceiptStatus.secretNotMatching",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 179,
+      "symbol": "PKReceiptStatus.receiptServerUnavailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 181,
+      "symbol": "PKReceiptStatus.subscriptionExpired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 183,
+      "symbol": "PKReceiptStatus.testReceipt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 185,
+      "symbol": "PKReceiptStatus.productionEnvironment",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 191,
+      "symbol": "PKReceiptInfoField",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 193,
+      "symbol": "PKReceiptInfoField.bundle_id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 195,
+      "symbol": "PKReceiptInfoField.application_version",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 197,
+      "symbol": "PKReceiptInfoField.original_application_version",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 199,
+      "symbol": "PKReceiptInfoField.creation_date",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 201,
+      "symbol": "PKReceiptInfoField.expiration_date",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 204,
+      "symbol": "PKReceiptInfoField.in_app",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 206,
+      "symbol": "PKReceiptInfoField.InApp",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 208,
+      "symbol": "PKReceiptInfoField.InApp.quantity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 210,
+      "symbol": "PKReceiptInfoField.InApp.product_id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 212,
+      "symbol": "PKReceiptInfoField.InApp.transaction_id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 214,
+      "symbol": "PKReceiptInfoField.InApp.original_transaction_id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 216,
+      "symbol": "PKReceiptInfoField.InApp.purchase_date",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 218,
+      "symbol": "PKReceiptInfoField.InApp.original_purchase_date",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 220,
+      "symbol": "PKReceiptInfoField.InApp.expires_date",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 222,
+      "symbol": "PKReceiptInfoField.InApp.cancellation_date",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 225,
+      "symbol": "PKReceiptInfoField.InApp.app_item_id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 228,
+      "symbol": "PKReceiptInfoField.InApp.version_external_identifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 230,
+      "symbol": "PKReceiptInfoField.InApp.web_order_line_item_id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 243,
+      "symbol": "PKTransactionController",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 253,
+      "symbol": "PKPaymentQueue",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 255,
+      "symbol": "PKPaymentQueue.add(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 256,
+      "symbol": "PKPaymentQueue.remove(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 258,
+      "symbol": "PKPaymentQueue.add(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 260,
+      "symbol": "PKPaymentQueue.restoreCompletedTransactions(withApplicationUsername:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 262,
+      "symbol": "PKPaymentQueue.finishTransaction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 266,
+      "symbol": "PKReceiptValidator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 267,
+      "symbol": "PKReceiptValidator.validate(receipt:password:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 271,
+      "symbol": "PKPaymentTransaction",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 272,
+      "symbol": "PKPaymentTransaction.transactionState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 273,
+      "symbol": "PKPaymentTransaction.transactionIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 281,
+      "symbol": "SKProduct.localizedPrice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 301,
+      "symbol": "Date.init(millisecondsSince1970:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 313,
+      "symbol": "SKPaymentTransaction.debugDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit/Source/Types.swift",
+      "line": 334,
+      "symbol": "PKReceiptItem.init(receiptInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Meniny/MXDevelop/MXProjects/PurchaseKit/PurchaseKit"
+}

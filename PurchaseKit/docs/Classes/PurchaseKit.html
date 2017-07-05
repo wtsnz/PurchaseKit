@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PurchaseKit Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/PurchaseKit" class="dashAnchor"></a>
+    <a title="PurchaseKit Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (9% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PurchaseKit Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/PKCompleteTransactionsController.html">PKCompleteTransactionsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKInAppProductQueryRequest.html">PKInAppProductQueryRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKInAppReceiptRefreshRequest.html">PKInAppReceiptRefreshRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKInAppReceiptRefreshRequest/PKResultType.html">– PKResultType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKInAppReceiptVerificator.html">PKInAppReceiptVerificator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKPaymentQueueController.html">PKPaymentQueueController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKPaymentsController.html">PKPaymentsController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKProductsInfoController.html">PKProductsInfoController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PKRestorePurchasesController.html">PKRestorePurchasesController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseKit.html">PurchaseKit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/PKPurchaseResult.html">PKPurchaseResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptError.html">PKReceiptError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptExitCode.html">PKReceiptExitCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptInfoField.html">PKReceiptInfoField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptInfoField/InApp.html">– InApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKReceiptStatus.html">PKReceiptStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKRefreshReceiptResult.html">PKRefreshReceiptResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKSubscriptionType.html">PKSubscriptionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKTransactionResult.html">PKTransactionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKVerifyPurchaseResult.html">PKVerifyPurchaseResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKVerifyReceiptResult.html">PKVerifyReceiptResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PKVerifySubscriptionResult.html">PKVerifySubscriptionResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SKPaymentTransaction.html">SKPaymentTransaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SKPaymentTransactionState.html">SKPaymentTransactionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SKProduct.html">SKProduct</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/PKPaymentQueue.html">PKPaymentQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PKPaymentTransaction.html">PKPaymentTransaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PKReceiptValidator.html">PKReceiptValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PKTransactionController.html">PKTransactionController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/PKAppleReceiptValidator.html">PKAppleReceiptValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKAppleReceiptValidator/PKVerifyReceiptURLType.html">– PKVerifyReceiptURLType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKCompleteTransactions.html">PKCompleteTransactions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKPayment.html">PKPayment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKPurchase.html">PKPurchase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKPurchaseDetails.html">PKPurchaseDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKReceiptItem.html">PKReceiptItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKRestorePurchases.html">PKRestorePurchases</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKRestoreResults.html">PKRestoreResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PKRetrieveResults.html">PKRetrieveResults</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PurchaseKit</h1>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20methods%20-%20Purchases"></a>
+                <a name="//apple_ref/swift/Section/Public methods - Purchases" class="dashAnchor"></a>
+                <a href="#/Public%20methods%20-%20Purchases">
+                  <h3 class="section-name">Public methods - Purchases</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvC4tvOS11PurchaseKit15canMakePaymentsSb"></a>
+                    <a name="//apple_ref/swift/Variable/canMakePayments" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC4tvOS11PurchaseKit15canMakePaymentsSb">canMakePayments</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit20retrieveProductsInfoFTGVs3SetSS_10completionFVS_17PKRetrieveResultsT__T_"></a>
+                    <a name="//apple_ref/swift/Method/retrieveProductsInfo(_:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit20retrieveProductsInfoFTGVs3SetSS_10completionFVS_17PKRetrieveResultsT__T_">retrieveProductsInfo(_:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Retrieve products information</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">retrieveProductsInfo</span><span class="p">(</span><span class="n">_</span> <span class="nv">productIds</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Structs/PKRetrieveResults.html">PKRetrieveResults</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>productIds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The set of product identifiers to retrieve corresponding products for</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>handler for result</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit15purchaseProductFTSS8quantitySi10atomicallySb19applicationUsernameSS10completionFOS_16PKPurchaseResultT__T_"></a>
+                    <a name="//apple_ref/swift/Method/purchaseProduct(_:quantity:atomically:applicationUsername:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit15purchaseProductFTSS8quantitySi10atomicallySb19applicationUsernameSS10completionFOS_16PKPurchaseResultT__T_">purchaseProduct(_:quantity:atomically:applicationUsername:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>PKPurchase a product</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">purchaseProduct</span><span class="p">(</span><span class="n">_</span> <span class="nv">productId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">quantity</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="nv">atomically</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">applicationUsername</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/PKPurchaseResult.html">PKPurchaseResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>productId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>productId as specified in iTunes Connect</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>quantity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>quantity of the product to be purchased</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>atomically</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>whether the product is purchased atomically (e.g. finishTransaction is called immediately)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>applicationUsername</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>an opaque identifier for the user’s account on your system</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>handler for result</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit15purchaseProductFTCSo9SKProduct8quantitySi10atomicallySb19applicationUsernameSS10completionFOS_16PKPurchaseResultT__T_"></a>
+                    <a name="//apple_ref/swift/Method/purchaseProduct(_:quantity:atomically:applicationUsername:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit15purchaseProductFTCSo9SKProduct8quantitySi10atomicallySb19applicationUsernameSS10completionFOS_16PKPurchaseResultT__T_">purchaseProduct(_:quantity:atomically:applicationUsername:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>PKPurchase a product</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">purchaseProduct</span><span class="p">(</span><span class="n">_</span> <span class="nv">product</span><span class="p">:</span> <span class="kt">SKProduct</span><span class="p">,</span> <span class="nv">quantity</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="nv">atomically</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">applicationUsername</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span> <span class="kt"><a href="../Enums/PKPurchaseResult.html">PKPurchaseResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>product</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>product to be purchased</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>quantity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>quantity of the product to be purchased</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>atomically</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>whether the product is purchased atomically (e.g. finishTransaction is called immediately)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>applicationUsername</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>an opaque identifier for the user’s account on your system</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>handler for result</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit16restorePurchasesFT10atomicallySb19applicationUsernameSS10completionFVS_16PKRestoreResultsT__T_"></a>
+                    <a name="//apple_ref/swift/Method/restorePurchases(atomically:applicationUsername:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit16restorePurchasesFT10atomicallySb19applicationUsernameSS10completionFVS_16PKRestoreResultsT__T_">restorePurchases(atomically:applicationUsername:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Restore purchases</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">restorePurchases</span><span class="p">(</span><span class="nv">atomically</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">applicationUsername</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Structs/PKRestoreResults.html">PKRestoreResults</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>atomically</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>whether the product is purchased atomically (e.g. finishTransaction is called immediately)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>applicationUsername</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>an opaque identifier for the user’s account on your system</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>handler for result</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit20completeTransactionsFT10atomicallySb10completionFGSaVS_10PKPurchase_T__T_"></a>
+                    <a name="//apple_ref/swift/Method/completeTransactions(atomically:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit20completeTransactionsFT10atomicallySb10completionFGSaVS_10PKPurchase_T__T_">completeTransactions(atomically:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Complete transactions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">completeTransactions</span><span class="p">(</span><span class="nv">atomically</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">([</span><span class="kt"><a href="../Structs/PKPurchase.html">PKPurchase</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>atomically</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>whether the product is purchased atomically (e.g. finishTransaction is called immediately)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>handler for result</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit17finishTransactionFPS_20PKPaymentTransaction_T_"></a>
+                    <a name="//apple_ref/swift/Method/finishTransaction(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit17finishTransactionFPS_20PKPaymentTransaction_T_">finishTransaction(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Finish a transaction
+Once the content has been delivered, call this method to finish a transaction that was performed non-atomically</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">finishTransaction</span><span class="p">(</span><span class="n">_</span> <span class="nv">transaction</span><span class="p">:</span> <span class="kt"><a href="../Protocols/PKPaymentTransaction.html">PKPaymentTransaction</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>transaction</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>transaction to finish</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20methods%20-%20Receipt%20verification"></a>
+                <a name="//apple_ref/swift/Section/Public methods - Receipt verification" class="dashAnchor"></a>
+                <a href="#/Public%20methods%20-%20Receipt%20verification">
+                  <h3 class="section-name">Public methods - Receipt verification</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZvC4tvOS11PurchaseKit16localReceiptDataGSqV10Foundation4Data_"></a>
+                    <a name="//apple_ref/swift/Variable/localReceiptData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZvC4tvOS11PurchaseKit16localReceiptDataGSqV10Foundation4Data_">localReceiptData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Return receipt data from the application bundle. This is read from Bundle.main.appStoreReceiptURL</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">localReceiptData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit13verifyReceiptFT5usingPS_18PKReceiptValidator_8passwordGSqSS_12forceRefreshSb10completionFOS_21PKVerifyReceiptResultT__T_"></a>
+                    <a name="//apple_ref/swift/Method/verifyReceipt(using:password:forceRefresh:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit13verifyReceiptFT5usingPS_18PKReceiptValidator_8passwordGSqSS_12forceRefreshSb10completionFOS_21PKVerifyReceiptResultT__T_">verifyReceipt(using:password:forceRefresh:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify application receipt</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">verifyReceipt</span><span class="p">(</span><span class="n">using</span> <span class="nv">validator</span><span class="p">:</span> <span class="kt"><a href="../Protocols/PKReceiptValidator.html">PKReceiptValidator</a></span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">forceRefresh</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/PKVerifyReceiptResult.html">PKVerifyReceiptResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>validator</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>receipt validator to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Only used for receipts that contain auto-renewable subscriptions. Your app’s shared secret (a hexadecimal string).</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>forceRefresh</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If true, refreshes the receipt even if one already exists.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>handler for result</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit14verifyPurchaseFT9productIdSS9inReceiptGVs10DictionarySSPs9AnyObject___OS_22PKVerifyPurchaseResult"></a>
+                    <a name="//apple_ref/swift/Method/verifyPurchase(productId:inReceipt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit14verifyPurchaseFT9productIdSS9inReceiptGVs10DictionarySSPs9AnyObject___OS_22PKVerifyPurchaseResult">verifyPurchase(productId:inReceipt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify the purchase of a Consumable or NonConsumable product in a receipt</p>
+
+<ul>
+<li>return: either notPurchased or purchased</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">verifyPurchase</span><span class="p">(</span><span class="nv">productId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">inReceipt</span> <span class="nv">receipt</span><span class="p">:</span> <span class="kt">PKReceipt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/PKVerifyPurchaseResult.html">PKVerifyPurchaseResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>productId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the product id of the purchase to verify</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inReceipt</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the receipt to use for looking up the purchase</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFC4tvOS11PurchaseKit18verifySubscriptionFT4typeOS_18PKSubscriptionType9productIdSS9inReceiptGVs10DictionarySSPs9AnyObject__10validUntilV10Foundation4Date_OS_26PKVerifySubscriptionResult"></a>
+                    <a name="//apple_ref/swift/Method/verifySubscription(type:productId:inReceipt:validUntil:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFC4tvOS11PurchaseKit18verifySubscriptionFT4typeOS_18PKSubscriptionType9productIdSS9inReceiptGVs10DictionarySSPs9AnyObject__10validUntilV10Foundation4Date_OS_26PKVerifySubscriptionResult">verifySubscription(type:productId:inReceipt:validUntil:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Verify the purchase of a subscription (auto-renewable, free or non-renewing) in a receipt. This method extracts all transactions mathing the given productId and sorts them by date in descending order, then compares the first transaction expiry date against the validUntil value.</p>
+
+<ul>
+<li>return: either .notPurchased or .purchased / .expired with the expiry date found in the receipt</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">verifySubscription</span><span class="p">(</span><span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/PKSubscriptionType.html">PKSubscriptionType</a></span><span class="p">,</span> <span class="nv">productId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">inReceipt</span> <span class="nv">receipt</span><span class="p">:</span> <span class="kt">PKReceipt</span><span class="p">,</span> <span class="n">validUntil</span> <span class="nv">date</span><span class="p">:</span> <span class="kt">Date</span> <span class="o">=</span> <span class="kt">Date</span><span class="p">())</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/PKVerifySubscriptionResult.html">PKVerifySubscriptionResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>type</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>autoRenewable or nonRenewing</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>productId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the product id of the purchase to verify</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inReceipt</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the receipt to use for looking up the subscription</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>validUntil</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>date to check against the expiry date of the subscription. If nil, no verification</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-07-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
