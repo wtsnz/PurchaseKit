@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target 'iOS' do
+  use_frameworks!
+  pod 'PurchaseKit', :path => '../'
+  pod 'NAIManager'
+end

@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F2EC6B09E04C50976124FCBCF544CD /* Pods-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFFB79315F50DFDF6CCADEDDD8C8C9C /* Pods-iOS-dummy.m */; };
+		0461F66868E533FF72DBD2EF54CB4A07 /* PurchaseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF98D0A69D875F964A8E7671429E5D /* PurchaseKit.swift */; };
+		08A5AB6ED8E47444F85F5B4DE34E748A /* PKProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB96B10060662D3D5D3AC725C555BF0 /* PKProductsInfoController.swift */; };
+		19DE121555BB2E259BEB8E29C1746D4E /* PKRestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C8B08D50ABC9E7A4A21CAC72DF4CD3 /* PKRestorePurchasesController.swift */; };
+		23EA27199C37650D860A528876DCEDCA /* NetworkActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F529E0E54E8B7287C722D306F7AA37EC /* NetworkActivityIndicatorManager.swift */; };
+		556E356D6BD16EAE59D7E7D10FE4026A /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65E38C79CAE9FC045F0D82C05054C4 /* Types.swift */; };
+		5B686991B36FDAC06295789D77EA6B61 /* PKInAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DFDC9BFBB360814D4F899D4341BC5 /* PKInAppProductQueryRequest.swift */; };
+		5C6627483688F252AE65F016B71B0CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */; };
+		644D07DF718FD684BB06408684D13C70 /* NAIManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 587F43D7D658523B0DE12F1D1C859CB5 /* NAIManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67044E354CA07635D9ECA0AEBE5F9E2C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A311B9399A2914B2348BF5D0F1A585 /* StoreKit.framework */; };
+		73D685850F029C962984BA854A84437D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE81B90AFA3D29077DE5616B5BC8693 /* UIKit.framework */; };
+		7AAE4EED38598340E25E290CFA0A7C0A /* PKInAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D86FDD2D3D62A6E9B0F895F0961D77 /* PKInAppReceipt.swift */; };
+		81BBD2E07C0A4E7111DA9108A2A801CA /* PKPaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E03A95CA63A5B9CC249ED7A7A0FD7D2 /* PKPaymentsController.swift */; };
+		8BFF232AC76DA66167C6D16A15CD9376 /* PKAppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E93E215CA46A768739AC0EBCBB218 /* PKAppleReceiptValidator.swift */; };
+		9448ACCBD4BE74AEF3031B4C07C6B065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */; };
+		AF782DC4B78688D32CB49B5BF58A065D /* Pods-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A19FCBCA24DD9EA2274DA6FA95B924 /* Pods-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDA91A8CD1C67C306BFCB8B7E56B295 /* PurchaseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B89880735F616AE05F424735BFE72D4 /* PurchaseKit-dummy.m */; };
+		C35C6D0BA09366A754AAB0907B9628ED /* PurchaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FB3CFA7E1BD1121D4FEA186845E1E1 /* PurchaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6AE7399B886E50A664E4D1EDDDBFD /* NAIManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E7AAB08A94CC5ED0BD88FAD684C452 /* NAIManager-dummy.m */; };
+		DC00EDBE9461675805F863DFC39E0FA2 /* NAIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6807C60EC14146DC3EFA81991161F334 /* NAIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E205F0E0E05034C5F6B4E8D1E4A72160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */; };
+		EEB47A8279A0E0D771452A190C2445D6 /* PurchaseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5391DD28EA41EF7F935722F236A04D62 /* PurchaseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F097C5A7FFA5A94E35F0A1628A88DC54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE81B90AFA3D29077DE5616B5BC8693 /* UIKit.framework */; };
+		F44FB0AF264BA9D24C665DB4A9D3A7E0 /* PKPaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0749192A657451FB512A35863C285047 /* PKPaymentQueueController.swift */; };
+		F7B6B26ED70ACF31A611896AF892D9FB /* PKRegisterTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684186963A5CEC872B7B4CEC71B6F90A /* PKRegisterTransactionsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0E296BD9951120B214B15BD59552A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B76715EB2D56412B610DBDC13735CC;
+			remoteInfo = NAIManager;
+		};
+		ED106C6DA091187CA783FBC6BF704B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FE978A491A9808A3DFE6716A772298;
+			remoteInfo = PurchaseKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0749192A657451FB512A35863C285047 /* PKPaymentQueueController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PKPaymentQueueController.swift; sourceTree = "<group>"; };
+		0F3C5DD11BFC156AEB129A8427F1BCFF /* Pods-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		14600C806E2995F4554A25214FDF9469 /* NAIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NAIManager.modulemap; sourceTree = "<group>"; };
+		28C8B08D50ABC9E7A4A21CAC72DF4CD3 /* PKRestorePurchasesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PKRestorePurchasesController.swift; sourceTree = "<group>"; };
+		33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36F95EB5D1C6782BC1C8802B87020629 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FB3CFA7E1BD1121D4FEA186845E1E1 /* PurchaseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PurchaseKit.h; sourceTree = "<group>"; };
+		3FE81B90AFA3D29077DE5616B5BC8693 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		410F2506A150B05D86714C230A75B9BC /* NAIManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NAIManager-prefix.pch"; sourceTree = "<group>"; };
+		500A034A09542F7B6889CA7D5845E5B1 /* PurchaseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PurchaseKit.xcconfig; sourceTree = "<group>"; };
+		5391DD28EA41EF7F935722F236A04D62 /* PurchaseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PurchaseKit-umbrella.h"; sourceTree = "<group>"; };
+		587F43D7D658523B0DE12F1D1C859CB5 /* NAIManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NAIManager-umbrella.h"; sourceTree = "<group>"; };
+		5B89880735F616AE05F424735BFE72D4 /* PurchaseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PurchaseKit-dummy.m"; sourceTree = "<group>"; };
+		6807C60EC14146DC3EFA81991161F334 /* NAIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NAIManager.h; path = NAIManager/Source/NAIManager.h; sourceTree = "<group>"; };
+		684186963A5CEC872B7B4CEC71B6F90A /* PKRegisterTransactionsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PKRegisterTransactionsController.swift; sourceTree = "<group>"; };
+		6F653571C9BBF67D069D4F9B02EF884D /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		75234299E60DEC5DC40442EDB71DEF2B /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		823A293FCAFDBC39B80646A61EB6859A /* Pods-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOS.modulemap"; sourceTree = "<group>"; };
+		8C65E38C79CAE9FC045F0D82C05054C4 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		8E03A95CA63A5B9CC249ED7A7A0FD7D2 /* PKPaymentsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PKPaymentsController.swift; sourceTree = "<group>"; };
+		92AA767CBA4E11D2C1B92FCE56BF96C3 /* NAIManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NAIManager.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		998F1D6EE97FC35891C322C23D9C9556 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB96B10060662D3D5D3AC725C555BF0 /* PKProductsInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PKProductsInfoController.swift; sourceTree = "<group>"; };
+		9FFDD63DF93A089A8CE3493F357A7B7B /* Pods-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4E7AAB08A94CC5ED0BD88FAD684C452 /* NAIManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NAIManager-dummy.m"; sourceTree = "<group>"; };
+		AE87356D51AC37C2519043F70783E26D /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS.framework; path = "Pods-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98E93E215CA46A768739AC0EBCBB218 /* PKAppleReceiptValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PKAppleReceiptValidator.swift; sourceTree = "<group>"; };
+		BD755BAD4842F47162AFD04B0AE65198 /* NAIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NAIManager.framework; path = NAIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FA4482A50A557D6320FECE49A27168 /* Pods-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-resources.sh"; sourceTree = "<group>"; };
+		C22DFDC9BFBB360814D4F899D4341BC5 /* PKInAppProductQueryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PKInAppProductQueryRequest.swift; sourceTree = "<group>"; };
+		CDFFB79315F50DFDF6CCADEDDD8C8C9C /* Pods-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-dummy.m"; sourceTree = "<group>"; };
+		D1A4C24E05EFE417E2CCB1933575196D /* Pods-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB8E9E8FF34AD6BA1AAA167E426D8F81 /* PurchaseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PurchaseKit-prefix.pch"; sourceTree = "<group>"; };
+		E6A18A91204739A86FA9F8A72E84F842 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDF98D0A69D875F964A8E7671429E5D /* PurchaseKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PurchaseKit.swift; sourceTree = "<group>"; };
+		F158AAD810077281F532FB0146802B0E /* PurchaseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PurchaseKit.modulemap; sourceTree = "<group>"; };
+		F529E0E54E8B7287C722D306F7AA37EC /* NetworkActivityIndicatorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicatorManager.swift; path = NAIManager/Source/NetworkActivityIndicatorManager.swift; sourceTree = "<group>"; };
+		F6AA24BACBE493A8A0D12D2BBA8A9048 /* PurchaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PurchaseKit.framework; path = PurchaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A19FCBCA24DD9EA2274DA6FA95B924 /* Pods-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-umbrella.h"; sourceTree = "<group>"; };
+		F7A311B9399A2914B2348BF5D0F1A585 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		F8D86FDD2D3D62A6E9B0F895F0961D77 /* PKInAppReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PKInAppReceipt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B66CFC4F3372221516D9AD85B4FEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6627483688F252AE65F016B71B0CA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEBC51EB49FA4587033F6E85F9CF45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E205F0E0E05034C5F6B4E8D1E4A72160 /* Foundation.framework in Frameworks */,
+				67044E354CA07635D9ECA0AEBE5F9E2C /* StoreKit.framework in Frameworks */,
+				73D685850F029C962984BA854A84437D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD1C40EACFC814D18CC2EF9386E32AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9448ACCBD4BE74AEF3031B4C07C6B065 /* Foundation.framework in Frameworks */,
+				F097C5A7FFA5A94E35F0A1628A88DC54 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5C45EC2BF3C58308F6D0B9CA0A1407 /* NAIManager */ = {
+			isa = PBXGroup;
+			children = (
+				6807C60EC14146DC3EFA81991161F334 /* NAIManager.h */,
+				F529E0E54E8B7287C722D306F7AA37EC /* NetworkActivityIndicatorManager.swift */,
+				ECF519D2EA27AE4E90D9473580484D66 /* Support Files */,
+			);
+			name = NAIManager;
+			path = NAIManager;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D114975774DFB0EDBBD2546092612FE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E5E228A23657CB25BAFD2E4EE76EA3 /* PurchaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				92ADC5A7E3FF48821D865BE3C30714E1 /* Source */,
+			);
+			name = PurchaseKit;
+			path = PurchaseKit;
+			sourceTree = "<group>";
+		};
+		44950E28D8489A955887B67E9020C855 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6A18A91204739A86FA9F8A72E84F842 /* Info.plist */,
+				F158AAD810077281F532FB0146802B0E /* PurchaseKit.modulemap */,
+				500A034A09542F7B6889CA7D5845E5B1 /* PurchaseKit.xcconfig */,
+				5B89880735F616AE05F424735BFE72D4 /* PurchaseKit-dummy.m */,
+				DB8E9E8FF34AD6BA1AAA167E426D8F81 /* PurchaseKit-prefix.pch */,
+				5391DD28EA41EF7F935722F236A04D62 /* PurchaseKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/PurchaseKit";
+			sourceTree = "<group>";
+		};
+		4F73946104FDB1436D749F187DE52D75 /* Pods-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				36F95EB5D1C6782BC1C8802B87020629 /* Info.plist */,
+				823A293FCAFDBC39B80646A61EB6859A /* Pods-iOS.modulemap */,
+				9FFDD63DF93A089A8CE3493F357A7B7B /* Pods-iOS-acknowledgements.markdown */,
+				D1A4C24E05EFE417E2CCB1933575196D /* Pods-iOS-acknowledgements.plist */,
+				CDFFB79315F50DFDF6CCADEDDD8C8C9C /* Pods-iOS-dummy.m */,
+				0F3C5DD11BFC156AEB129A8427F1BCFF /* Pods-iOS-frameworks.sh */,
+				C1FA4482A50A557D6320FECE49A27168 /* Pods-iOS-resources.sh */,
+				F7A19FCBCA24DD9EA2274DA6FA95B924 /* Pods-iOS-umbrella.h */,
+				6F653571C9BBF67D069D4F9B02EF884D /* Pods-iOS.debug.xcconfig */,
+				75234299E60DEC5DC40442EDB71DEF2B /* Pods-iOS.release.xcconfig */,
+			);
+			name = "Pods-iOS";
+			path = "Target Support Files/Pods-iOS";
+			sourceTree = "<group>";
+		};
+		69E18725515A75069F11AACB1858559C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD755BAD4842F47162AFD04B0AE65198 /* NAIManager.framework */,
+				AE87356D51AC37C2519043F70783E26D /* Pods_iOS.framework */,
+				F6AA24BACBE493A8A0D12D2BBA8A9048 /* PurchaseKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A12C450A090DF103B1131098D0C5EFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C45EC2BF3C58308F6D0B9CA0A1407 /* NAIManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D114975774DFB0EDBBD2546092612FE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */,
+				F7A311B9399A2914B2348BF5D0F1A585 /* StoreKit.framework */,
+				3FE81B90AFA3D29077DE5616B5BC8693 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7228B63FA8AD504E4207F7FDE1034A47 /* PurchaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				37E5E228A23657CB25BAFD2E4EE76EA3 /* PurchaseKit */,
+				44950E28D8489A955887B67E9020C855 /* Support Files */,
+			);
+			name = PurchaseKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A76A75B85AD86015272385540AA9E703 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				6A12C450A090DF103B1131098D0C5EFF /* Pods */,
+				69E18725515A75069F11AACB1858559C /* Products */,
+				A499F2438739C6A8E57ACFCEF0D75DFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92ADC5A7E3FF48821D865BE3C30714E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B98E93E215CA46A768739AC0EBCBB218 /* PKAppleReceiptValidator.swift */,
+				C22DFDC9BFBB360814D4F899D4341BC5 /* PKInAppProductQueryRequest.swift */,
+				F8D86FDD2D3D62A6E9B0F895F0961D77 /* PKInAppReceipt.swift */,
+				0749192A657451FB512A35863C285047 /* PKPaymentQueueController.swift */,
+				8E03A95CA63A5B9CC249ED7A7A0FD7D2 /* PKPaymentsController.swift */,
+				9AB96B10060662D3D5D3AC725C555BF0 /* PKProductsInfoController.swift */,
+				684186963A5CEC872B7B4CEC71B6F90A /* PKRegisterTransactionsController.swift */,
+				28C8B08D50ABC9E7A4A21CAC72DF4CD3 /* PKRestorePurchasesController.swift */,
+				37FB3CFA7E1BD1121D4FEA186845E1E1 /* PurchaseKit.h */,
+				EEDF98D0A69D875F964A8E7671429E5D /* PurchaseKit.swift */,
+				8C65E38C79CAE9FC045F0D82C05054C4 /* Types.swift */,
+			);
+			name = Source;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A499F2438739C6A8E57ACFCEF0D75DFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F73946104FDB1436D749F187DE52D75 /* Pods-iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A76A75B85AD86015272385540AA9E703 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7228B63FA8AD504E4207F7FDE1034A47 /* PurchaseKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ECF519D2EA27AE4E90D9473580484D66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				998F1D6EE97FC35891C322C23D9C9556 /* Info.plist */,
+				14600C806E2995F4554A25214FDF9469 /* NAIManager.modulemap */,
+				92AA767CBA4E11D2C1B92FCE56BF96C3 /* NAIManager.xcconfig */,
+				A4E7AAB08A94CC5ED0BD88FAD684C452 /* NAIManager-dummy.m */,
+				410F2506A150B05D86714C230A75B9BC /* NAIManager-prefix.pch */,
+				587F43D7D658523B0DE12F1D1C859CB5 /* NAIManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NAIManager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15D4003BFC64897A4DFCD4ED39D15764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644D07DF718FD684BB06408684D13C70 /* NAIManager-umbrella.h in Headers */,
+				DC00EDBE9461675805F863DFC39E0FA2 /* NAIManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF0C5281888350DC1C45B4E543FF07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF782DC4B78688D32CB49B5BF58A065D /* Pods-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A358A0CB84ECF49936C5F8D85A125D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB47A8279A0E0D771452A190C2445D6 /* PurchaseKit-umbrella.h in Headers */,
+				C35C6D0BA09366A754AAB0907B9628ED /* PurchaseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A550F23AE52149424731E46CEB0A43F /* Pods-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08350F13C8FF6F1FCEC2CBB39C9AE135 /* Build configuration list for PBXNativeTarget "Pods-iOS" */;
+			buildPhases = (
+				890C2F6A5B8C38CDE96D9B6F30AAD2CB /* Sources */,
+				02B66CFC4F3372221516D9AD85B4FEF1 /* Frameworks */,
+				6ABF0C5281888350DC1C45B4E543FF07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44730A2F5951D6BAC9A9029EB8CE4F91 /* PBXTargetDependency */,
+				4193DD3A610A4DB7EDD163275314D673 /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS";
+			productName = "Pods-iOS";
+			productReference = AE87356D51AC37C2519043F70783E26D /* Pods_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94FE978A491A9808A3DFE6716A772298 /* PurchaseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA45B8AC7E063A6525589A6E4DA6FEF3 /* Build configuration list for PBXNativeTarget "PurchaseKit" */;
+			buildPhases = (
+				A948B22DF6D92C9B9D94AC316CDCAA53 /* Sources */,
+				4EEBC51EB49FA4587033F6E85F9CF45D /* Frameworks */,
+				87A358A0CB84ECF49936C5F8D85A125D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurchaseKit;
+			productName = PurchaseKit;
+			productReference = F6AA24BACBE493A8A0D12D2BBA8A9048 /* PurchaseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4B76715EB2D56412B610DBDC13735CC /* NAIManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B177015C945662FFDEB26CAA877E3FC /* Build configuration list for PBXNativeTarget "NAIManager" */;
+			buildPhases = (
+				A0668A07052A449361DACF6F33142B80 /* Sources */,
+				EBD1C40EACFC814D18CC2EF9386E32AC /* Frameworks */,
+				15D4003BFC64897A4DFCD4ED39D15764 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAIManager;
+			productName = NAIManager;
+			productReference = BD755BAD4842F47162AFD04B0AE65198 /* NAIManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 69E18725515A75069F11AACB1858559C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B76715EB2D56412B610DBDC13735CC /* NAIManager */,
+				8A550F23AE52149424731E46CEB0A43F /* Pods-iOS */,
+				94FE978A491A9808A3DFE6716A772298 /* PurchaseKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890C2F6A5B8C38CDE96D9B6F30AAD2CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F2EC6B09E04C50976124FCBCF544CD /* Pods-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0668A07052A449361DACF6F33142B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A6AE7399B886E50A664E4D1EDDDBFD /* NAIManager-dummy.m in Sources */,
+				23EA27199C37650D860A528876DCEDCA /* NetworkActivityIndicatorManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A948B22DF6D92C9B9D94AC316CDCAA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFF232AC76DA66167C6D16A15CD9376 /* PKAppleReceiptValidator.swift in Sources */,
+				5B686991B36FDAC06295789D77EA6B61 /* PKInAppProductQueryRequest.swift in Sources */,
+				7AAE4EED38598340E25E290CFA0A7C0A /* PKInAppReceipt.swift in Sources */,
+				F44FB0AF264BA9D24C665DB4A9D3A7E0 /* PKPaymentQueueController.swift in Sources */,
+				81BBD2E07C0A4E7111DA9108A2A801CA /* PKPaymentsController.swift in Sources */,
+				08A5AB6ED8E47444F85F5B4DE34E748A /* PKProductsInfoController.swift in Sources */,
+				F7B6B26ED70ACF31A611896AF892D9FB /* PKRegisterTransactionsController.swift in Sources */,
+				19DE121555BB2E259BEB8E29C1746D4E /* PKRestorePurchasesController.swift in Sources */,
+				BFDA91A8CD1C67C306BFCB8B7E56B295 /* PurchaseKit-dummy.m in Sources */,
+				0461F66868E533FF72DBD2EF54CB4A07 /* PurchaseKit.swift in Sources */,
+				556E356D6BD16EAE59D7E7D10FE4026A /* Types.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4193DD3A610A4DB7EDD163275314D673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PurchaseKit;
+			target = 94FE978A491A9808A3DFE6716A772298 /* PurchaseKit */;
+			targetProxy = ED106C6DA091187CA783FBC6BF704B51 /* PBXContainerItemProxy */;
+		};
+		44730A2F5951D6BAC9A9029EB8CE4F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NAIManager;
+			target = F4B76715EB2D56412B610DBDC13735CC /* NAIManager */;
+			targetProxy = AC0E296BD9951120B214B15BD59552A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20131795528252F699FE98CAA4013AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AA767CBA4E11D2C1B92FCE56BF96C3 /* NAIManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NAIManager/NAIManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NAIManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NAIManager/NAIManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NAIManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56C0D3FA2F127EB974F90C51B946C51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500A034A09542F7B6889CA7D5845E5B1 /* PurchaseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PurchaseKit/PurchaseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PurchaseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PurchaseKit/PurchaseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PurchaseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E931C52AF4B08DD609DAF56E3A66399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AA767CBA4E11D2C1B92FCE56BF96C3 /* NAIManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NAIManager/NAIManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NAIManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NAIManager/NAIManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NAIManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95DA40F87CA32466A2FA9F057A0A146A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F653571C9BBF67D069D4F9B02EF884D /* Pods-iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS/Pods-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0F01BD2449B5236454264FB5C4E1A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75234299E60DEC5DC40442EDB71DEF2B /* Pods-iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS/Pods-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE4612AD5FDA395CC46BB0B2FB7DED24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500A034A09542F7B6889CA7D5845E5B1 /* PurchaseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PurchaseKit/PurchaseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PurchaseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PurchaseKit/PurchaseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PurchaseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08350F13C8FF6F1FCEC2CBB39C9AE135 /* Build configuration list for PBXNativeTarget "Pods-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DA40F87CA32466A2FA9F057A0A146A /* Debug */,
+				C0F01BD2449B5236454264FB5C4E1A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B177015C945662FFDEB26CAA877E3FC /* Build configuration list for PBXNativeTarget "NAIManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E931C52AF4B08DD609DAF56E3A66399 /* Debug */,
+				20131795528252F699FE98CAA4013AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA45B8AC7E063A6525589A6E4DA6FEF3 /* Build configuration list for PBXNativeTarget "PurchaseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C0D3FA2F127EB974F90C51B946C51C /* Debug */,
+				EE4612AD5FDA395CC46BB0B2FB7DED24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

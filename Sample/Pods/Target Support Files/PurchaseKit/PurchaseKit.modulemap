@@ -1,0 +1,6 @@
+framework module PurchaseKit {
+  umbrella header "PurchaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
