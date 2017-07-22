@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./PurchaseKit.png" alt="PurchaseKit">
+  <img src="https://ooo.0o0.ooo/2017/07/22/5972d2dfdbe6e.png" alt="PurchaseKit">
   <br/><br/>
   <a href="https://cocoapods.org/pods/PurchaseKit">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg">
