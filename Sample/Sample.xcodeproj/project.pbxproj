@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		321B1E9B6FA6C714B7E22A05 /* Pods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530ED9512CD4221294A31879 /* Pods_Sample.framework */; };
 		5CE9F4DE1F0D361000A13954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9F4DD1F0D361000A13954 /* AppDelegate.swift */; };
 		5CE9F4E01F0D361000A13954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9F4DF1F0D361000A13954 /* ViewController.swift */; };
 		5CE9F4E31F0D361000A13954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE9F4E11F0D361000A13954 /* Main.storyboard */; };
@@ -46,7 +45,6 @@
 				5CE9F5381F0D44EC00A13954 /* NAIManager.framework in Frameworks */,
 				5CE9F51C1F0D3FBF00A13954 /* StoreKit.framework in Frameworks */,
 				5CE9F4F01F0D365A00A13954 /* PurchaseKit.framework in Frameworks */,
-				321B1E9B6FA6C714B7E22A05 /* Pods_Sample.framework in Frameworks */,
 				826D436C76010462894378BD /* Pods_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
