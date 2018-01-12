@@ -1,6 +1,6 @@
 PODS:
   - NAIManager (1.0.0)
-  - PurchaseKit (1.0.0)
+  - PurchaseKit (1.1.0)
 
 DEPENDENCIES:
   - NAIManager
@@ -8,12 +8,12 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   PurchaseKit:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   NAIManager: 55f3c338e7abf1fe074d9bcc85d9dc3a253e79b8
-  PurchaseKit: f206e254fd28b47750f35d7e3794ead0d458e2c6
+  PurchaseKit: 06c73306a5e4bdfa159547320d82778edc2be4ce
 
 PODFILE CHECKSUM: 3cd0ed8ef9e40ba888807342ec080ae3187a7a0b
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1

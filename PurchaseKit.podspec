@@ -1,7 +1,6 @@
-
 Pod::Spec.new do |s|
   s.name             = "PurchaseKit"
-  s.version          = "1.0.1"
+  s.version          = "1.1.0"
   s.summary          = "In-App Purchase Framework"
   s.author           = { "Meniny" => "Meniny@qq.com" }
   s.homepage         = "https://github.com/Meniny/PurchaseKit"
